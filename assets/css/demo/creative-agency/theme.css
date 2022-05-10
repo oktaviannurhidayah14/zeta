@@ -4870,7 +4870,7 @@ textarea.form-control-lg {
 .nav-link {
     display: block;
     padding: 0.625rem 1.25rem;
-    font-weight: bold;
+    font-weight: 400 !important;
     color: #9a9ca5;
     text-decoration: none;
     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out, border-color 0.25s ease-in-out;
