@@ -1,0 +1,401 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Zeta - Home</title>
+
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Zeta Website">
+    <meta name="keywords" content="bootstrap, business, creative agency, portfolio, services, ui kit, landing, html5, css3, javascript, gallery, slider, touch, creative">
+    <meta name="author" content="Zeta">
+
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link rel="manifest" href="../assets/img/site.webmanifest">
+    <link rel="mask-icon" color="#5bbad5" href="../assets/img/safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#766df4">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="../assets/vendor/lightgallery.js/dist/css/lightgallery.min.css" />
+    <link rel="stylesheet" media="screen" href="../assets/vendor/simplebar/dist/simplebar.min.css" />
+    <link rel="stylesheet" media="screen" href="../assets/vendor/tiny-slider/dist/tiny-slider.css" />
+
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="../assets/css/demo/creative-agency/theme.css">
+
+    <!-- Page loading styles-->
+    <style>
+        .page-loading {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all .4s .2s ease-in-out;
+            transition: all .4s .2s ease-in-out;
+            background-color: #fff;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 9999;
+        }
+
+            .page-loading.active {
+                opacity: 1;
+                visibility: visible;
+            }
+
+        .page-loading-inner {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            -webkit-transition: opacity .2s ease-in-out;
+            transition: opacity .2s ease-in-out;
+            opacity: 0;
+        }
+
+        .page-loading.active > .page-loading-inner {
+            opacity: 1;
+        }
+
+        .page-loading-inner > span {
+            display: block;
+            font-size: 1rem;
+            font-weight: normal;
+            color: #787a80;
+        }
+
+        .page-spinner {
+            display: inline-block;
+            width: 2.75rem;
+            height: 2.75rem;
+            margin-bottom: .75rem;
+            vertical-align: text-bottom;
+            background-color: #cfcfd1;
+            border-radius: 50%;
+            opacity: 0;
+            -webkit-animation: spinner .75s linear infinite;
+            animation: spinner .75s linear infinite;
+        }
+
+        @-webkit-keyframes spinner {
+            0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            50% {
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none;
+            }
+        }
+
+        @keyframes spinner {
+            0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            50% {
+                opacity: 1;
+                -webkit-transform: none;
+                transform: none;
+            }
+        }
+    </style>
+
+    <!-- Page loading scripts-->
+    <script>(function () {
+            window.onload = function () {
+                var preloader = document.querySelector('.page-loading');
+                preloader.classList.remove('active');
+                setTimeout(function () {
+                    preloader.remove();
+                }, 2000);
+            };
+        })();</script>
+</head>
+
+
+<!-- Body-->
+<body>
+
+
+    <!-- Page loading spinner-->
+    <div class="page-loading active">
+        <div class="page-loading-inner">
+            <div class="page-spinner"></div><span>Loading...</span>
+        </div>
+    </div>
+
+    <!-- Main content-->
+    <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+    <main class="page-wrapper position-relative">
+        <!-- Navbar -->
+        <!-- Remove .navbar-sticky class to detach .navbar from page scroll -->
+        <header class="header navbar navbar-expand-md navbar-dark navbar-sticky navbar-floating">
+            <div class="container px-0 px-xl-3">
+                <a class="navbar-brand order-md-1 me-md-5 me-0 pe-lg-2" href="index.html">
+                    <img class="navbar-brand-static" src="../assets/img/zeta/logo-04.png" alt="Zeta Logo" width="130">
+                    <img class="navbar-brand-floating" src="../assets/img/zeta/logo.png" alt="Zeta Logo" width="130">
+                </a>
+                <div class="d-flex align-items-center order-md-3">
+                    <a class="btn btn-primary rounded-pill d-sm-inline-block d-none ms-3" href="contacts.html">Contact us</a>
+                    <button class="navbar-toggler ms-1 me-n3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <nav class="collapse navbar-collapse order-md-2" id="navbarCollapse1">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Product</a>
+                            <div class="dropdown-menu">
+                                <h4>Our Product</h4>
+                                <div class="product-group">
+                                    <div class="item-group">
+                                        <h6>Data and AI</h6>
+                                        <ul class="border-left-5 data-ai-theme">
+                                            <li><a><img src="../assets/img/zeta/product/zeta-atlasicon.png" /><span>Atlas</span></a></li>
+                                            <li><a><img src="../assets/img/zeta/product/zeta-captionicon.png" /><span>CC</span></a></li>
+                                            <li><a><img src="../assets/img/zeta/product/zeta-dashicon.png" /><span>Dash</span></a></li>
+                                            <li><a><img src="../assets/img/zeta/product/zeta-pulseicon.png" /><span>Pulse</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-group">
+                                        <h6>Productivity</h6>
+                                        <ul class=" border-left-5 productivity-theme">
+                                            <li><a><img src="../assets/img/zeta/product/zeta-deskicon.png" /><span>Desk</span></a></li>
+                                            <li><a><img src="../assets/img/zeta/product/zeta-gardeicon.png" /><span>Garde</span></a></li>
+                                            <li><a><img src="../assets/img/zeta/product/zeta-initialicon.png" /><span>Initial</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="item-group">
+                                        <h6>Learning</h6>
+                                        <ul class="border-left-5 learning-theme">
+                                            <!--<li><a><img src="assets/img/zeta/product/zeta-academyicon.png" /><span>Academy</span></a></li>-->
+                                            <li><a><img src="../assets/img/zeta/product/zeta-codeicon.png" /><span>Code</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="academy.html">Academy</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="py-md-6 py-5 bg-dark jarallax" data-jarallax data-speed="0.8">
+            <div class="container mt-5 py-lg-4">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb breadcrumb-alt breadcrumb-light justify-content-center mb-sm-4">
+                            <li class="breadcrumb-item">
+                                <a href="../index.html">
+                                    <i class="ci-home"></i>
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Data and AI</li>
+                        </ol>
+                    </nav>
+                    <h1 class="display-1 text-center text-light">Zeta Data and AI</h1>
+                    <p class="mb-sm-5 pb-3 lead text-center text-light opacity-60">Zeta Academy menjawab permasalahan Talenta Digital di Indonesia dengan menyediakan berbagai program yang dirancang sesuai dengan kebutuhan industri.</p>
+                    <div class="d-flex flex-sm-row flex-column-reverse align-items-center justify-content-sm-center">
+                        <div>
+                            <a href="contacts.html" class="btn btn-lg btn-outline-light">Start now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Parallax bg -->
+            <div class="jarallax-img bg-repeat-0" style="background-image: url(../assets/img/home/page-title-bg.jpg);"></div>
+        </section>
+
+        <!-- Page content -->
+        <!-- Image + Text -->
+        <section class="container pt-lg-6 pt-5 pb-4">
+            <div class="row align-items-center">
+                <div class="col-lg-5 order-lg-1 order-2" data-jarallax-element="-15" data-disable-parallax-down="md">
+                    <h2>
+                        Zeta Atlas
+                    </h2>
+                    <p class="mb-lg-5 pb-sm-4 pb-3 text-muted">Program intensif 16 pekan yang mencetak Talenta Digital. From Zero to Hero.</p>
+                    <a href="product/bootcamp.html" class="btn btn-primary d-sm-inline-block d-block mb-4">Learn more</a>
+                </div>
+                <div class="col-lg-7 order-lg-2 order-1 mb-lg-0 mb-4" data-jarallax-element="25" data-disable-parallax-down="md">
+                    <img src="../../assets/img/zeta/screen/Atlas.png" alt="Social Media Marketing">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Image + Text -->
+        <section class="container pt-lg-6 pt-5 pb-4">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-lg-0 mb-4" data-jarallax-element="-40" data-disable-parallax-down="md">
+                    <img src="../../assets/img/zeta/screen/CC.png" alt="Search Engine Optimization">
+                </div>
+                <div class="col-lg-5" data-jarallax-element="40" data-disable-parallax-down="md">
+                    <h2>
+                        Zeta
+                        CC
+                    </h2>
+                    <p class="mb-lg-5 pb-sm-4 pb-3 text-muted">
+                        Kelas-kelas pilihan untuk para profesional dalam meningkatkan kemampuan.
+                    </p>
+                    <a href="contacts.html" class="btn btn-primary d-sm-inline-block d-block mb-4">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Image + Text -->
+        <section class="container pt-lg-6 pt-5 pb-4">
+            <div class="row align-items-center">
+                <div class="col-lg-5 order-lg-1 order-2" data-jarallax-element="-15" data-disable-parallax-down="md">
+                    <h2>
+                        Zeta Dash
+                    </h2>
+                    <p class="mb-lg-5 pb-sm-4 pb-3 text-muted">
+                        Sebuah Open Source Web Application Framework yang mempercepat dan mempermudah pengembangan aplikasi.
+                    </p>
+                    <a href="contacts.html" class="btn btn-primary d-sm-inline-block d-block mb-4">Learn more</a>
+                </div>
+                <div class="col-lg-7 order-lg-2 order-1 mb-lg-0 mb-4" data-jarallax-element="25" data-disable-parallax-down="md">
+                    <img src="../../assets/img/zeta/screen/Dash.png" alt="Social Media Marketing">
+                </div>
+            </div>
+        </section>
+
+        <!-- Image + Text -->
+        <section class="container pt-lg-6 pt-5 pb-4">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-lg-0 mb-4" data-jarallax-element="-40" data-disable-parallax-down="md">
+                    <img src="../../assets/img/zeta/screen/Pulse.png" alt="Search Engine Optimization">
+                </div>
+                <div class="col-lg-5" data-jarallax-element="40" data-disable-parallax-down="md">
+                    <h2>
+                        Zeta
+                        Pulse
+                    </h2>
+                    <p class="mb-lg-5 pb-sm-4 pb-3 text-muted">
+                        Kelas-kelas pilihan untuk para profesional dalam meningkatkan kemampuan.
+                    </p>
+                    <a href="contacts.html" class="btn btn-primary d-sm-inline-block d-block mb-4">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+    </main><!-- / Main content: .page-wrapper -->
+    <!-- Footer -->
+    <footer class="footer pt-3 bg-dark">
+        <div class="container py-lg-5 py-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-3 col-12 order-md-1 order-2 mb-md-0 mb-4">
+                    <a class="d-block" href="index.html">
+                        <img class="mb-4" src="../assets/img/zeta/logo-04.png" alt="Zeta Logo" width="130">
+                    </a>
+                    <h6 class="text-light">PT Zeta Teknologi Asia</h6>
+                    <p class="text-light">Jl Raya Bogor, Kramat Jati, Kota Jakarta Timur, DKI Jakarta 13520</p>
+                    <!--<ul class="nav nav-light flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="tel:(405)555-0128" class="nav-link p-0 fw-normal">
+                                <span class="text-light">Call: </span>
+                                (405) 555-0128
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="mailto:hello@example.com" class="nav-link p-0 fw-normal">
+                                <span class="text-light">Email: </span>
+                                hello@example.com
+                            </a>
+                        </li>
+                    </ul>-->
+                </div>
+                <div class="col-lg-2 col-md-3 col-12 order-md-2 order-1 offset-lg-1  mb-md-0 mb-4">
+                    <h3 class="h6 mb-3 text-uppercase text-light">Quick links</h3>
+                    <ul class="nav nav-light flex-md-column flex-sm-row flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="index.html" class="nav-link me-md-0 me-sm-4 p-0 fw-normal">Home</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="page/portfolio.html" class="nav-link me-md-0 me-sm-4 p-0 fw-normal">Product</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="page/about.html" class="nav-link me-md-0 me-sm-4 p-0 fw-normal">Service</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="page/blog.html" class="nav-link me-md-0 me-sm-4 p-0 fw-normal">Academy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 order-md-3 order-sm-4 order-3 mb-md-0 mb-4">
+                    <h3 class="h6 mb-3 text-uppercase text-light">Follow us</h3>
+                    <a href="#" class="btn-social bs-solid rounded-circle bs-light me-2 mb-2 mt-md-0 mt-sm-1">
+                        <i class="ci-facebook"></i>
+                    </a>
+                    <a href="#" class="btn-social bs-solid rounded-circle bs-light me-2 mb-2 mt-md-0 mt-sm-1">
+                        <i class="ci-instagram"></i>
+                    </a>
+                    <a href="#" class="btn-social bs-solid rounded-circle bs-light me-2 mb-2 mt-md-0 mt-sm-1">
+                        <i class="ci-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 pt-1">
+                <div class="text-light">
+                    <span class="d-block fs-xs mb-1">
+                        <span class="fs-sm">&copy; </span>
+                        2022 Zeta Technology.
+                    </span>
+                    <span class="d-block fs-xs">
+                        All Rights Reserved
+                    </span>
+                </div>
+                <div class="d-flex align-items-end">
+                    <span class="d-sm-inline-block d-none text-light fs-sm me-3">Back to top</span>
+                    <a class="btn-scroll-top position-static rounded-circle" href="#top" data-scroll>
+                        <i class="btn-scroll-top-icon ci-angle-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Vendor scripts: js libraries and plugins-->
+    <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="../assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="../assets/vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script src="../assets/vendor/lg-video.js/dist/lg-video.min.js"></script>
+    <script src="../assets/vendor/parallax-js/dist/parallax.min.js"></script>
+    <script src="../assets/vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="../assets/vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+
+    <!-- Main theme script-->
+    <script src="../assets/js/theme.min.js"></script>
+</body>
+</html>

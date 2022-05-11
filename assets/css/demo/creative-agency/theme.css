@@ -15625,7 +15625,7 @@ div.code-toolbar > .toolbar {
     }
 
 .btn-hover-shadow:hover.btn-primary, .btn-hover-shadow:hover.btn-outline-primary, .btn-hover-shadow:hover.btn-translucent-primary {
-    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(245, 47, 110, 0.92);
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(47, 181, 245, 0.92); 
 }
 
 .btn-hover-shadow:hover.btn-secondary, .btn-hover-shadow:hover.btn-outline-secondary, .btn-hover-shadow:hover.btn-translucent-secondary {
