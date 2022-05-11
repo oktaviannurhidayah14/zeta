@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-iPhone_13_12_Pro_1">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_13_12_Pro_1" data-name="iPhone 13, 12 Pro – 1" clip-path="url(#clip-iPhone_13_12_Pro_1)">
+    <g id="Group_18" data-name="Group 18" transform="translate(-208 -288)">
+      <path id="Path_84" data-name="Path 84" d="M240,321v-1.25c0-2.477-5.221-3.75-8-3.75s-8,1.273-8,3.75V321" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_85" data-name="Path 85" d="M232,313a3.834,3.834,0,0,0,4-4v-2a4,4,0,0,0-8,0v2A3.834,3.834,0,0,0,232,313Z" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="14" cy="14" r="14" transform="translate(218 298)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_43" data-name="Line 43" y1="7" transform="translate(232 289)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_86" data-name="Path 86" d="M236,293l-4-4-4,4" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_44" data-name="Line 44" y2="7" transform="translate(232 328)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_87" data-name="Path 87" d="M236,331l-4,4-4-4" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_45" data-name="Line 45" x1="7" transform="translate(209 312)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_88" data-name="Path 88" d="M213,316l-4-4,4-4" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_46" data-name="Line 46" x2="7" transform="translate(248 312)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_89" data-name="Path 89" d="M251,316l4-4-4-4" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_47" data-name="Line 47" x1="5" y1="5" transform="translate(215 295)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_90" data-name="Path 90" d="M215,300v-5h5" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_48" data-name="Line 48" y1="5" x2="5" transform="translate(244 295)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_91" data-name="Path 91" d="M249,300v-5h-5" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_49" data-name="Line 49" x1="5" y2="5" transform="translate(215 324)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_92" data-name="Path 92" d="M215,324v5h5" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_50" data-name="Line 50" x2="5" y2="5" transform="translate(244 324)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_93" data-name="Path 93" d="M249,324v5h-5" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
