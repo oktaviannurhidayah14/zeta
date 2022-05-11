@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-iPhone_13_12_Pro_1">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_13_12_Pro_1" data-name="iPhone 13, 12 Pro – 1" clip-path="url(#clip-iPhone_13_12_Pro_1)">
+    <g id="Group_4" data-name="Group 4" transform="translate(-288 -47)">
+      <line id="Line_4" data-name="Line 4" x2="29" transform="translate(302 92)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_25" data-name="Path 25" d="M293,94V86a3.791,3.791,0,0,1,3.746-4h4l5,6h7s.574,4-4,4h-6l-3.873-4" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_26" data-name="Path 26" d="M298.5,79a4.379,4.379,0,0,0,4.5-4.285v-1.43a4.505,4.505,0,0,0-9,0v1.43A4.379,4.379,0,0,0,298.5,79Z" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_27" data-name="Path 27" d="M310.673,85l3.073-8h18l-4.8,12H316" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_5" data-name="Line 5" x2="12" transform="translate(312 60)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_6" data-name="Line 6" x2="12" transform="translate(312 56)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_7" data-name="Line 7" x2="7" transform="translate(312 64)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_28" data-name="Path 28" d="M318.5,50c-7.456,0-13.5,4.477-13.5,10a8.477,8.477,0,0,0,2.849,6.13,37.672,37.672,0,0,1-1.406,5.553c-.228.72.274,1.472.868,1.289a15.489,15.489,0,0,0,6.379-3.637A17.676,17.676,0,0,0,318.5,70c7.456,0,13.5-4.477,13.5-10S325.956,50,318.5,50Z" fill="none" stroke="#505050" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
